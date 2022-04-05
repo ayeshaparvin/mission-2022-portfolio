@@ -1,0 +1,132 @@
+body{
+    font-family: 'Amaranth', sans-serif;
+}
+
+.flexible{
+    display: flex;
+}
+.half-width{
+    width: 80%;
+    margin-left: 40px;
+}
+.half-width img{
+    width: 70%;
+    margin-left: 40px;
+}
+.half-width a{
+    text-decoration: none;
+    color:white;
+    padding: 15px 40px;
+    background-color: rgb(217, 80, 56);
+    border-radius: 5px;
+    
+}
+.half-width p{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.orange-color{
+    color:orange;
+}
+.focused{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+}
+.focused  h1{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.my-mission{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.my-mission h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 80px;
+
+}
+#mission{
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding:10px 20px;
+}
+#vission {
+    background-color: rgb(255, 204, 127);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#goals {
+    background-color: rgb(189, 111, 238);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.develop{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 150px;
+}
+.global{
+    margin-top: 150px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: right bottom;
+    margin-right: 50px;
+
+}
+.global h1{
+    font-size: 70px;
+}
+.build{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.build #corona{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.build h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+footer{
+    height: 150px;
+    background-color: rgb(27, 28, 28);
+    padding: 20px 10px;
+}
+footer h1,p{
+    
+    text-align: center;
+    
+
+}
+.foot{
+    color:white;
+}
+.foot-mission{
+    color:tomato
+}
+.app-banner{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: top right;
+}
+.banner{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: left bottom;
+}
+
+.copy{
+    color:grey;
+}
